@@ -1,0 +1,18 @@
+# class paths
+-cp src
+
+# entry point
+-main Main
+
+# libraries
+-lib heaps
+#-lib hlsdl
+-lib polygonal-ds
+-lib actuate
+
+# output
+-dce full
+#-hl bin/game.hl
+-js bin/game.js
+
+-cmd cmd /c start bin/index.html
